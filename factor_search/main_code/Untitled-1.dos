@@ -1,0 +1,4 @@
+
+login('zhangchenrui', 'zcr230397')
+tick = loadTable("dfs://l2_tf_tick",'data')
+data = select * from tick where tradingdate = 2023.09.01 and symbol = 'T2312'
